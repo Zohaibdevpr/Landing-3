@@ -35,12 +35,11 @@ backdrop-filter: blur(20px);
     border-radius: 30px;
     background-color: rgb(104, 80, 80);
     position: absolute;
-    /* From https://css.glass */
-background: rgba(255, 255, 255, 0);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(15px);
--webkit-backdrop-filter: blur(40px);
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(40px);
     left: 85%;
    
 
@@ -70,7 +69,7 @@ border-bottom:5px solid white ;
    }
 .intro h1{
     text-transform: uppercase;
-    letter-spacing: -3px;
+    letter-spacing: 2px;
     color: rgb(228, 228, 200);
     font-size: 5rem;
     background-image: url(https://plus.unsplash.com/premium_photo-1674174348911-52f3c42c7c41?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGdsb3dpbmclMjBkaWZmZXJlbnQlMjBjb2xvcnN8ZW58MHx8MHx8fDA%3D);
@@ -79,7 +78,9 @@ border-bottom:5px solid white ;
     background-clip: none;
     background-position: right;
     -webkit-text-fill-color: transparent;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Luckiest Guy", cursive;
+    opacity: 0.77;
+    /* font-family: Arial, Helvetica, sans-serif; */
     line-height: 1.1;  /*dont use unit here */
    
     
@@ -118,7 +119,8 @@ border-bottom:5px solid white ;
     justify-content:space-between;
     align-items: center;  
     padding: 50px; 
-    background-color: rgb(243, 198, 115);
+    background: rgb(219, 165, 37);
+background: linear-gradient(257deg, rgb(201, 77, 77,0.90) 0%, rgba(230,164,15,1) 77%);
     border-bottom: 2px solid rgb(201, 77, 77);
 }
 #about h2{
@@ -145,6 +147,9 @@ border-bottom:5px solid white ;
     margin-top: -30px;
     color: rgb(42, 77, 107);
 }
+#about h2 i{
+    color: rgb(228, 77, 77);
+}
 .icons i{
     color: white;
     border-radius: 40px;
@@ -159,9 +164,10 @@ border-bottom:5px solid white ;
 }
 .exp{
     width: 100%;
-    min-height: 100%;
+    min-height: 50%;
     display: flex;
-
+    background: rgb(168,64,147);
+background: linear-gradient(145deg, rgba(168,64,147,1) 28%, rgba(252,238,69,1) 100%);
     padding: 30px 0;
 }
 .exp1{
@@ -170,31 +176,35 @@ border-bottom:5px solid white ;
     align-items: flex-start;
     width: 32%;
     height: 400px;
-    background-color: white;
-    padding: 20px 30px;
-    border-right: 3px solid rgb(201, 77, 77);
-}
+    
+    padding: 30px 20px;
+    padding-right: 3px solid red;
+}   
 .exp1 h3{
     font-size: 29px;
     font-weight: 600;
-   
+    color: rgb(209, 44, 44);
 }
 .exp1 i{
     color: rgb(0, 0, 0);
     font-weight: 700;
     font-size: 34px;
+    color: tomato;
 }
+
 .exp2{
     width: 68%;
-    height: 650px;
-    background-color: green;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    border-left:3px solid  rgb(201, 77, 77);
 
 }
 .min1{
     display: flex;
     width: 100%;
     height: 50%;
-    background-color: wheat;
+  
 }
 .small1{
     width: 50%;
@@ -205,6 +215,13 @@ border-bottom:5px solid white ;
     font-size: 35px;
     padding: 15px 20px;
     color: white;
+    background: #CCCECF;
+    background: repeating-radial-gradient(ellipse farthest-side at bottom center, #CCCECF 32%, #138E7F 62%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: none;
+
+
 
 }
 .small1 p{
@@ -222,12 +239,18 @@ border-bottom:5px solid white ;
 .small2{
     width: 50%;
     height: 25%;
+    
 
 }
 .small2 h3{
     font-size: 35px;
     padding: 15px 20px;
     color: white;
+    background: #CCCECF;
+    background: repeating-radial-gradient(ellipse farthest-side at bottom center, #CCCECF 32%, #138E7F 62%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: none;
 
 }
 .small2 p{
@@ -246,6 +269,81 @@ border-bottom:5px solid white ;
     display: flex;
     width: 100%;
     height: 50%;
-    background-color: rgb(207, 137, 7);
+    
+}
+.small3{
+    width: 50%;
+    height: 35%;
+ 
+
+}
+.small3 h3{
+    font-size: 35px;
+    padding: 15px 20px;
+    color: white;
+    background: #CCCECF;
+    background: repeating-radial-gradient(ellipse farthest-side at bottom center, #CCCECF 32%, #138E7F 62%);
+    -webkit-background-clip: text;
+    background-clip: none;
+    -webkit-text-fill-color: transparent;
+}
+.small3 p{
+     padding: 8px 20px;
+     color: rgb(172, 166, 166);
+     font-size: 22px;
+     
+}
+.small3 p i{
+    
+    color: red;
+    font-size: 24px;
+    
+}
+.small4{
+    width: 50%;
+    height: 35%;
+ 
+
+}
+.small4 h3{
+    font-size: 35px;
+    padding: 15px 20px;
+    color: white;
+    background: #CCCECF;
+    background: repeating-radial-gradient(ellipse farthest-side at bottom center, #CCCECF 32%, #138E7F 62%);
+   -webkit-background-clip: text;
+   background-clip: none;
+   -webkit-text-fill-color: transparent;
+}
+.small4 p{
+     padding: 8px 20px;
+     color: rgb(172, 166, 166);
+     font-size: 22px;
+     
+}
+.small4 p i{
+    
+    color: red;
+    font-size: 24px;
+    
+}
+footer{
+    width: 100%;
+    height: 10%;
+    background: rgb(223,77,82);
+    background: linear-gradient(225deg, rgba(223,77,82,1) 28%, rgba(252,238,69,1) 100%);
+}
+footer center{
+    text-align: center;
+    background: #432ACF;
+    background: linear-gradient(to right, #432ACF 0%, #FF1B2E 64%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    background-clip: none;
+    
+    font-size: 30px;
+    font-weight: 700;
+
 }
 
