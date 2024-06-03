@@ -2,9 +2,63 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: poppins;
 }
 html, body{
     width: 100%;
     height: 100%;
+    background-color:  white;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.intro{
+    height: 45%;
+    width: 100%;
+    padding: 55px 60px;
+    background: rgb(131,58,180);
+    background: linear-gradient(145deg, rgba(131,58,180,1) 49%, rgba(252,176,69,1) 100%);
+border-bottom:5px solid white ;
+   }
+.intro h1{
+    letter-spacing: -3px;
+    color: rgb(228, 228, 200);
+    font-size: 5rem;
+    background-image: url(https://plus.unsplash.com/premium_photo-1674174348911-52f3c42c7c41?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGdsb3dpbmclMjBkaWZmZXJlbnQlMjBjb2xvcnN8ZW58MHx8MHx8fDA%3D);
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    background-clip: none;
+    background-position: right;
+    -webkit-text-fill-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.1;  /*dont use unit here */
+   
+    
+}
+.visit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.visit h3,.visit h4{
+    color: rgb(203, 207, 235);
+    font-size:20px;
+    font-weight: 700;
+
+}
+.visit h4:hover{
+    cursor: pointer;
+}
+.image-1{
+    width: 100%;
+    height: 80%;    
+}
+.image-1 img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    object-position:top;
+
 }
