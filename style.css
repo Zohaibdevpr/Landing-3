@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: poppins;
 }
 html, body{
     width: 100%;
@@ -12,6 +13,53 @@ html, body{
     height: 100%;
     width: 100%;
 }
+.nav{
+/* From https://css.glass */
+background: rgba(131, 58, 180, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+    padding: 15px  23px ;
+    position: fixed;
+    width: 100%; 
+    
+}
+.nav h3{
+    font-size: 16px;
+    font-weight: bold;
+    padding:20px 30px;
+    margin-top: 60px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(104, 80, 80);
+    position: absolute;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(15px);
+-webkit-backdrop-filter: blur(40px);
+    left: 85%;
+   
+
+}
+.nav h3 i{
+     font-weight: 700;
+     font-size: 20px;
+     padding: 3px;
+}
+.nav h3:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 10px blue, 
+    inset -5px -5px 10px black;
+    -webkit-box-shadow:0px 0px 80px 30px rgba(191,13,117,0.78);
+    -moz-box-shadow: 0px 0px 80px 30px rgba(211,13,117,0.78);
+    box-shadow: 0px 0px 80px 30px rgba(101,13,117,0.78);    
+    color: orange;
+    /* border: 2px solid salmon; */
+}
 .intro{
     height: 45%;
     width: 100%;
@@ -21,6 +69,7 @@ html, body{
 border-bottom:5px solid white ;
    }
 .intro h1{
+    text-transform: uppercase;
     letter-spacing: -3px;
     color: rgb(228, 228, 200);
     font-size: 5rem;
@@ -62,3 +111,141 @@ border-bottom:5px solid white ;
     object-position:top;
 
 }
+#about{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;  
+    padding: 50px; 
+    background-color: rgb(243, 198, 115);
+    border-bottom: 2px solid rgb(201, 77, 77);
+}
+#about h2{
+    width: 47%;
+    font-size: 44px;
+    line-height: 58px;
+    letter-spacing: -1px;
+    color: rgb(219, 215, 215);
+}
+.about2{
+    width: 40%;
+    height: 100%;
+    border-left: 2px solid rgb(201, 77, 77);
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+.about2 h3{
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: -30px;
+    color: rgb(42, 77, 107);
+}
+.icons i{
+    color: white;
+    border-radius: 40px;
+    padding: 13px;
+    font-size: 26px;
+    background-color: rgb(250, 37, 13);
+    margin-right: 10px;
+}
+.icons i:hover{
+    color: black;
+    cursor: pointer;  
+}
+.exp{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+
+    padding: 30px 0;
+}
+.exp1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 32%;
+    height: 400px;
+    background-color: white;
+    padding: 20px 30px;
+    border-right: 3px solid rgb(201, 77, 77);
+}
+.exp1 h3{
+    font-size: 29px;
+    font-weight: 600;
+   
+}
+.exp1 i{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 34px;
+}
+.exp2{
+    width: 68%;
+    height: 650px;
+    background-color: green;
+
+}
+.min1{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color: wheat;
+}
+.small1{
+    width: 50%;
+    height: 25%;
+
+}
+.small1 h3{
+    font-size: 35px;
+    padding: 15px 20px;
+    color: white;
+
+}
+.small1 p{
+     padding: 8px 20px;
+     color: rgb(172, 166, 166);
+     font-size: 22px;
+     
+}
+.small1 p i{
+    
+    color: red;
+    font-size: 24px;
+    
+}
+.small2{
+    width: 50%;
+    height: 25%;
+
+}
+.small2 h3{
+    font-size: 35px;
+    padding: 15px 20px;
+    color: white;
+
+}
+.small2 p{
+     padding: 8px 20px;
+     color: rgb(172, 166, 166);
+     font-size: 22px;
+     
+}
+.small2 p i{
+    
+    color: red;
+    font-size: 24px;
+    
+}
+.min2{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(207, 137, 7);
+}
+
