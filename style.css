@@ -141,7 +141,7 @@ background: linear-gradient(257deg, rgb(201, 77, 77,0.90) 0%, rgba(230,164,15,1)
 .about2 h3{
     font-size: 2rem;
     font-weight: 600;
-    color: rgb(42, 77, 107);
+    color: rgb(250,37,13);
     padding: 4rem;
     text-align: center;
     margin:-4rem -170px 4rem -80px;
@@ -185,7 +185,7 @@ background: linear-gradient(145deg, rgba(168,64,147,1) 28%, rgba(252,238,69,1) 1
     width: 32%;
     height: 40%; 
     padding: 3rem 2rem;
-    padding-right: 3px solid red;
+    border-right: 3px solid rgb(201,77,77);
 }   
 .exp1 h3{
     font-size: 1.67rem;
@@ -362,123 +362,394 @@ footer center{
         padding: 2rem;
     }
     .icons{
-        width: 100%;
-        height: 100%;
         margin-top: 4rem;
         margin-left: -3.2rem;
-    
     }
-  
-
-    
-}
- /* @media (max-width:776px) {
-     nav{
-        padding: 10px 17px;
-     }
-     .nav h3{
-        font-size: 13px;
-        padding:14px 22px;
-        margin-top: 40px;
-    }
-    .intro{
-        height: 37%;
-        width: 100%;
-        padding: 40px 43px;
-       }
-       .intro h1{
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: rgb(228, 228, 200);
-        font-size: 3.45rem;
-        opacity: 0.77;
-        line-height: 1.2;
-    
-}
-#about{
-    width: 100%;
-    height: 45%; 
-    padding: 50px; 
-}
-#about h2{
-    width: 50%;
-    font-size: 28px;
-    line-height: 32px;
-    letter-spacing: -1px;
-    color: rgb(219, 215, 215);
-}
-
-} 
-@media (max-width:1100px) {
-    #about{
-        width: 100%;
-        height: 45%; 
-        padding: 50px; 
-    }
-    #about h2{
-        width: 55%;
-        font-size: 32px;
-        line-height: 37px;
-        letter-spacing: -1px;
-    }
-    
-}
-@media (max-width:1010px) {
-    .about2{
+    .exp1{
         width: 40%;
-        height: 100%;
-        padding: 20px 60px;
+        height: 40%; 
+        padding: 3rem 2rem;
     }
-    .about2 h3{
-        font-size: 28px;
-        font-weight: 500;
-        margin-top: -20px;
+    .min1{
+        width: 100%;
+        min-height: 20%;
     }
+    .small1{
+        width: 55%;
+        height: 81%;
+    }
+    .small1 h3{
+        font-size: 1.77rem;
+        padding: 0.91rem 1.2rem;
+    }
+    .small1 p{
+        padding: 0.99rem 2rem;
+        color: rgb(34, 30, 30);
+        font-size: 1.5rem;
+        width: 109%;
+       
+   }
+     .min2{
+        width: 100%;
+        min-height: 20%;
+    }
+    .smal12{
+        width: 50%;
+        height: 81%;
+    }
+    .small2 h3{
+        font-size: 1.37rem;
+        padding: 1.3rem 1.2rem;
+    }
+    .small2 p{
+        padding: 0.99rem 2rem;
+        color: rgb(34, 30, 30);
+        font-size: 1.31rem;
+        width: 100%;
+   }
+   .smal13{
+    width: 55%;
+    height: 81%;
+}
+.small3 h3{
+    font-size: 1.77rem;
+    padding: 0.91rem 1.2rem;
+}
+.small3 p{
+    padding: 0.09rem 2rem;
+    color: rgb(34, 30, 30);
+    font-size: 1.5rem;
+    width: 109%;
+}
+.smal14{
+    width: 50%;
+    height: 81%;
+}
+.small4 h3{
+    font-size: 1.37rem;
+    padding: 1.3rem 1.2rem;
+}
+.small4 p{
+    padding: 0.99rem 2rem;
+    color: rgb(34, 30, 30);
+    font-size: 1.31rem;
+    width: 100%;
+}
+
+    
+}
+@media (max-width:770px) {
+    .min1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 40%;
+    }
+    .small1{
+        width: 80%;
+        height: 50%;
+    }
+    .small1 h3{
+        font-size: 2.2rem;
+        padding: 1rem 1.5rem;
+        color: white;
+    }
+    .small1 p{
+         padding: 0.22rem 1.90rem;
+         color: rgb(34, 30, 30);
+         font-size: 1.6rem;
+    }
+    .small2{
+        width: 80%;
+        height: 50%;
+    }
+    .small2 h3{
+        font-size: 2.2rem;
+        padding: 1rem 1.5rem;
+        color: white;
+    }
+    .small2 p{
+         padding: 0.22rem 1.90rem;
+         color: rgb(34, 30, 30);
+         font-size: 1.6rem;
+    }
+    .min2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 40%;
+    }
+    .small3{
+        width: 80%;
+        height: 50%;
+    }
+    .small3 h3{
+        font-size: 2.2rem;
+        padding: 1.5rem 1.5rem;
+        color: white;
 
     }
-    @media (max-width:910px) {
-        .about2{
-            width: 50%;
-            height: 100%;
-            padding: 20px 60px;
+    .small3 p{
+         padding: 0.22rem 1.90rem;
+         color: rgb(34, 30, 30);
+         font-size: 1.6rem;
+    }
+    .small4{
+        width: 80%;
+        height: 50%;
+    }
+    .small4 h3{
+        font-size: 2.2rem;
+        padding: 1rem 1.5rem;
+        color: white;
+    }
+    .small4 p{
+         padding: 0.22rem 1.90rem;
+         color: rgb(34, 30, 30);
+         font-size: 1.6rem;
+    }
+}
+    @media (max-width:650px) {
+        .nav h3{
+            font-size: 1.014rem;
+            padding:1.21rem 1.25rem ;
+            margin-top: 60px;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            position: absolute;
+            border-radius: 12px;
+            left: 70%;
+        }
+        .intro h1{
+            letter-spacing: 1.90px;
+            width: 100%;
+            height: 30%;
+            font-size: 3rem;
+            line-height: 1;
+        }
+        .intro{
+            padding: 3.5rem 2.2rem;
+           }
+        #about h2{
+            width: 80%;
+            font-size: 2.10rem;
+            line-height: 46px;
+            letter-spacing: -1px;
         }
         .about2 h3{
-            font-size: 32px;
-            font-weight: 500;
-            margin-top: -20px;
+            font-size: 1.89rem;
+            padding: 1.77rem;
+        }
+        .icons{
+            margin-top: 3.22rem;
+            margin-left: -3.88rem;
+            padding: 0.41rem;
+            font-size: 1.698rem;
+        }
+    }
+    @media (max-width:580px) {
+        .nav h3{
+            font-size: 1rem;
+            padding:1.16rem 1.20rem ;
+            margin-top: 60px;
+            border-radius: 30px;
+            border-radius: 12px;
+           
+        }
+        .intro h1{
+            letter-spacing: 1.84px;
+            width: 70%;
+            height: 30%;
+            font-size: 2.67rem;
+            line-height: 1;
+        }
+        .intro{
+            padding: 3.3rem 2rem;
+           }  
+           .intro h1{
+            letter-spacing: 1.90px;
+            width: 100%;
+            height: 30%;
+            font-size: 3rem;
+            line-height: 1;
+        }
+        .intro{
+            padding: 3.5rem 2.2rem;
+           }
+           #about h2{
+            width: 80%;
+            font-size: 2rem;
+            line-height: 38px;
+            letter-spacing: -1px;
+        }
+        .about2 h3{
+            font-size: 1.89rem;
+            padding: 1.60rem;
+        }
+        .icons{
+            margin-top: 3rem;
+            margin-left: -4rem;
+            padding: 0.41rem;
+            font-size: 1.658rem;
         }
         .icons i{
-            border-radius: 40px;
-            padding: 10px;
-            font-size: 23px;
+            padding: 0.6rem;
+            font-size: 1.9rem;
             background-color: rgb(250, 37, 13);
-            margin-right: 10px;
-            width: 40%;
-            height: 10%;
-        }
-        }
-        @media (max-width:725px) {
-            .about2{
-                width: 60%;
-                height: 100%;
-                padding: 20px 80px;
-            }
-            .about2 h3{
-                font-size: 40px;
-                font-weight: 500;
-                margin-top: -20px;
-            }
-            .icons i{
-                border-radius: 40px;
-                padding: 10px;
-                font-size: 20px;
-                background-color: rgb(250, 37, 13);
-                margin-right: 10px;
-                width: 60%;
-                height: 10%;
+            margin-right: 1.6rem;
+        }            
+    }
+@media (max-width:460px) {
+    .nav h3{
+        font-size: 1.014rem;
+        padding:1rem 1rem ;
+        margin-top: 115px;
+        border-radius: 30px;
+        position: absolute;
+        border-radius: 12px;
+        left: 70%;
+    }
+    .intro h1{
+        letter-spacing: 1.50px;
+        width: 100%;
+        height: 30%;
+        font-size: 2.60rem;
+        line-height: 1;
+    }
+    .intro{
+        padding: 3rem 2rem;
+       }
+    #about{
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+        padding: 2rem 4rem;
+        
+    }
+    #about h2{
+        width: 100%;
+        font-size: 2.2rem;
+        line-height: 60px;
+        color: rgb(219, 215, 215);
+        border-bottom: 4px solid white;
+    }
+    .about2{
+        display:flex ;
+        justify-content: space-around;
+        width: 100%;
+        border-left: none;
+        
+    }
+    .about2 h3{
+        font-size: 2.1rem;
+       padding: 2rem;
+       margin-left: -12rem;
+       color: rgb(250,37,13);
+    }
+    .icons{
+        /* margin-top: 3rem; */
+        margin-left: -4rem;
+        padding: 0.41rem;
+        font-size: 1.858rem;
+    }
+    .exp{
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem 2rem;
+    }
+    .exp1{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        width: 100%;
+        height: 20%; 
+        padding: 1rem;
+        border-right: none;
+        border-bottom: 3px solid white;
+    }   
+    .exp1 h3{
+        font-size: 2.87rem;
+        font-weight: 600;
+        color: rgb(219, 215, 215);
+    }
+    .exp1 i{
+        display: none;
+    }
+    .exp2{
+        width: 100%;
+        border-left:none;
+    }
+    .min1{
+        width: 100%;
+    }
+    .small1{
+        width: 100%;
+        height: 50%;
+    }
+    .small1 h3{
+        font-size: 2.2rem;
+        padding: 1.61rem 2.2rem;
+       
+    }
+    .small1 p{
+         padding: 0.61rem 2.2rem;
+         color: skyblue;
+         font-size: 1.67rem;
+         font-weight: 500;
+         line-height: 1.4;
+    }
+    .small2{
+        width: 100%;
+        height: 50%;
+    }
+    .small2 h3{
+        font-size: 2.2rem;
+        padding: 1.61rem 2.2rem;
+       
+    }
+    .small2 p{
+         padding: 0.61rem 2.2rem;
+         color: skyblue;
+         font-size: 1.67rem;
+         font-weight: 500;
+         line-height: 1.4;
+    }
+    .small3{
+        width: 100%;
+        height: 50%;
+    }
+    .small3 h3{
+        font-size: 2.2rem;
+        padding: 1.61rem 2rem;
+       
+    }
+    .small3 p{
+         padding: 0.61rem 2.2rem;
+         color: skyblue;
+         font-size: 1.67rem;
+         font-weight: 500;
+         line-height: 1.4;
+    }
+    .small4{
+        width: 100%;
+        height: 50%;
+    }
+    .small4 h3{
+        font-size: 2.2rem;
+        padding: 1.61rem 2.2rem;
+       
+    }
+    .small4 p{
+         padding: 0.61rem 2.2rem;
+         color: skyblue;
+         font-size: 1.67rem;
+         font-weight: 500;
+         line-height: 1.4;
+    }
+}
+@media (max-width:377px) {
     
-            }
-            
-            }
-      */
-
+    
+}
+ 
