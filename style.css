@@ -21,8 +21,8 @@ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(20px);
 -webkit-backdrop-filter: blur(20px);
     padding: 1.5rem 2.4rem;
-    position: fixed;
-    width: 100%;   
+     position: fixed;
+    width: 100%;    
 }
 .nav h3{
     font-size: 1.03rem;
@@ -229,6 +229,30 @@ from {
 to {
 -webkit-filter: hue-rotate(-360deg);
 }
+}
+@keyframes motion{
+    from{
+        opacity:0;
+        scale:0.5;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+        transform: translateX(0px);
+    }
+}
+.small1,
+.small2,
+.small3,
+.small4,
+#about h2,
+.about h3,
+.icons,
+.exp h3,i{
+    animation: motion linear;
+    animation-timeline:view();
+    animation-range: entry 0 cover 40%;
 }
 .small1 p{
      padding: 1rem 2.1rem;
