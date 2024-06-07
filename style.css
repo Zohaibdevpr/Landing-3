@@ -231,6 +231,7 @@ to {
 -webkit-filter: hue-rotate(-360deg);
 }
 }
+/* animations for the special divs */
 @keyframes motion{
     from{
         opacity:0;
