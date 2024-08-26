@@ -218,10 +218,23 @@ background: linear-gradient(145deg, rgba(168,64,147,1) 28%, rgba(252,238,69,1) 1
 .small3 h3,
 .small4 h3{
 background-image: -webkit-linear-gradient(120deg, #f2291b, #f7db25, #84f527);
+-webkit-background-clip: text;
+background-clip: none;
+-webkit-text-fill-color: transparent;
+-webkit-animation: hue 20s infinite linear;
+}
+@-webkit-keyframes hue {
+from {
+-webkit-filter: hue-rotate(0deg);
+}
+to {
+-webkit-filter: hue-rotate(-360deg);
+}
+
 }
 /* animations for the special divs */
 @keyframes motion{
-    from{
+    from{ 
         opacity:0;
         scale:0.5;
         transform: translateX(-100px);
