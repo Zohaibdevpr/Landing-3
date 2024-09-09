@@ -99,7 +99,7 @@ backdrop-filter: blur(20px);
 
 .background {
     background-image: url(main.webp);
-    background-size:cover;
+    background-size:contain;
     margin:0 auto;
     width:100%;
     height:600px;
