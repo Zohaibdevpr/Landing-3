@@ -96,13 +96,11 @@ backdrop-filter: blur(20px);
     cursor: pointer;
 }
 .image-1{
-    width: 100%;
-    height: 80%;    
-}
-.image-1{
     width:100%;
     height: 100%;
     background-image:url(cool-background.png);
+    background-size:cover;
+    margin:0;
 }
 #about{
     width: 100%;
