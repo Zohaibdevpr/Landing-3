@@ -101,6 +101,7 @@ backdrop-filter: blur(20px);
     background-image:url(cool-background.svg);
     background-size:cover;
     margin:0;
+    background-position:right;
 }
 #about{
     width: 100%;
